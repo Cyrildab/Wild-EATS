@@ -77,16 +77,14 @@ function PostRestaurant() {
         {...register("alt")}
       />
 
-      <div className="selectFilter">
-        <select {...register("categorie")} id="categorie" className="imputPost">
-          <option value="Burger">Burger</option>
-          <option value="Japonais">Japonais</option>
-          <option value="Chinois">Chinois</option>
-          <option value="Français">Français</option>
-          <option value="Mexicain">Mexicain</option>
-          <option value="Italien">Italien</option>
-        </select>
-      </div>
+      <select {...register("categorie")} id="categorie" className="imputPost">
+        <option value="Burger">Burger</option>
+        <option value="Japonais">Japonais</option>
+        <option value="Chinois">Chinois</option>
+        <option value="Français">Français</option>
+        <option value="Mexicain">Mexicain</option>
+        <option value="Italien">Italien</option>
+      </select>
 
       <input
         className="imputPost"
@@ -94,15 +92,12 @@ function PostRestaurant() {
         placeholder="Distance"
         {...register("distance")}
       />
-
-      <div className="selectFilter">
-        <select {...register("price")} id="price" className="imputPost">
-          <option value="€">€</option>
-          <option value="€€">€€</option>
-          <option value="€€€">€€€</option>
-          <option value="€€€€">€€€€</option>
-        </select>
-      </div>
+      <select {...register("price")} id="price" className="imputPost">
+        <option value="€">€</option>
+        <option value="€€">€€</option>
+        <option value="€€€">€€€</option>
+        <option value="€€€€">€€€€</option>
+      </select>
 
       <input
         placeholder="Adresse"
