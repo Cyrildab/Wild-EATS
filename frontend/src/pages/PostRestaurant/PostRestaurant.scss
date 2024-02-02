@@ -1,0 +1,55 @@
+@import "../../Variables.scss";
+
+.restaurantForm {
+  position: absolute;
+  right: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+  border: 2px solid black;
+  width: 65vw;
+  background-color: $secondColor;
+  @media screen and (min-width: 400px) {
+    width: 30vw;
+    right: 30%;
+  }
+}
+
+.imputPost {
+  border: none;
+  border-radius: 10rem;
+  width: 60vw;
+  height: 3vh;
+  padding-left: 1rem;
+  margin-left: 0.5rem;
+  background-color: white;
+  font-family: $fontBold;
+  @media screen and (min-width: 400px) {
+    width: 15vw;
+    height: 3vh;
+  }
+}
+
+.validateButton {
+  border: none;
+  border-radius: 10rem;
+  width: 20vw;
+  height: 4vh;
+  background-color: $primaryColor;
+  cursor: pointer;
+  @media screen and (min-width: 400px) {
+    width: 6vw;
+    height: 4vh;
+  }
+}
+
+.titlePost {
+  font-family: $fontBold;
+  font-size: 1.5rem;
+  @media screen and (min-width: 400px) {
+    font-size: 2rem;
+  }
+}

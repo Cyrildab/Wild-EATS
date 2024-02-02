@@ -1,0 +1,11 @@
+@import "../../Variables.scss";
+
+.footer {
+  font-family: $fontBold;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: $secondColor;
+  padding: 0.5rem;
+  text-align: center;
+}
