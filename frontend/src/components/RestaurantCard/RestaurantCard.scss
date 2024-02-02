@@ -1,0 +1,87 @@
+@import "../../Variables.scss";
+
+.front {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  width: 80vw;
+  height: 60vh;
+  margin: 2rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  @media screen and (min-width: 400px) {
+    width: 18vw;
+    height: 47vh;
+  }
+}
+
+.back {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  width: 80vw;
+  height: 60vh;
+  margin: 2rem;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  @media screen and (min-width: 400px) {
+    width: 18vw;
+    height: 47vh;
+  }
+}
+
+.imageRestaurant {
+  width: 70vw;
+  height: 20vh;
+  border-radius: 1rem;
+  display: block;
+  margin: 0.8rem auto;
+  @media screen and (min-width: 400px) {
+    width: 15vw;
+    height: 18vh;
+  }
+}
+
+.titleRestaurant {
+  text-align: center;
+  font-family: $fontBold;
+  font-size: 1.5rem;
+  @media screen and (min-width: 400px) {
+    font-size: 1rem;
+  }
+}
+
+.categorieRestaurant {
+  margin: 0.5rem;
+  font-family: $fontBold;
+  font-size: 1rem;
+}
+
+.descriptionRestaurant {
+  font-family: $font;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  @media screen and (min-width: 400px) {
+    font-size: 0.8rem;
+  }
+}
+
+.listeRestaurant {
+  font-family: $font;
+  font-size: 1.2rem;
+  @media screen and (min-width: 400px) {
+    font-size: 0.8rem;
+  }
+}
+
+.flipButton {
+  all: unset;
+  text-align: end;
+  margin: 1rem;
+  cursor: pointer;
+  font-family: $fontBold;
+  position: relative;
+  @media screen and (min-width: 400px) {
+    font-size: 1rem;
+  }
+}
